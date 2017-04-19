@@ -1,0 +1,1475 @@
+2017-04-16 21:54:24,034 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.2.2.Final
+2017-04-16 21:54:24,129 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-16 21:54:24,175 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-04-16 21:54:24,191 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-04-16 21:54:24,237 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 21:54:24,253 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-04-16 21:54:24,253 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-16 21:54:24,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 21:54:24,565 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rafael\wildfly-8.1.0.Final/welcome-content
+2017-04-16 21:54:24,613 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-04-16 21:54:24,659 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-04-16 21:54:24,753 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-04-16 21:54:25,253 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-04-16 21:54:25,269 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.3.Final
+2017-04-16 21:54:25,316 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-04-16 21:54:25,487 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2017-04-16 21:54:25,503 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2017-04-16 21:54:25,503 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-04-16 21:54:25,597 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2017-04-16 21:54:25,660 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2017-04-16 21:54:25,753 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2017-04-16 21:54:25,879 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "projetoconclusaocurso.war" (runtime-name: "projetoconclusaocurso.war")
+2017-04-16 21:54:25,879 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rafael\wildfly-8.1.0.Final\standalone\deployments
+2017-04-16 21:54:25,957 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 21:54:26,847 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-04-16 21:54:26,956 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for projetoconclusaocurso
+2017-04-16 21:54:27,159 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "projetoconclusaocurso.war")]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"projetoconclusaocurso.war#projetoconclusaocurso\".__FIRST_PHASE__ is missing [jboss.naming.context.java.\"\\n\\t\\t\\tjava:jboss\".datasources.\"dev17\\n\\t\\t\"]"]}
+2017-04-16 21:54:27,222 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "projetoconclusaocurso.war" (runtime-name : "projetoconclusaocurso.war")
+2017-04-16 21:54:27,222 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java."\n\t\t\tjava:jboss".datasources."dev17\n\t\t" (missing) dependents: [service jboss.persistenceunit."projetoconclusaocurso.war#projetoconclusaocurso".__FIRST_PHASE__] 
+
+2017-04-16 21:54:27,363 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-16 21:54:27,363 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-04-16 21:54:27,363 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.1.0.Final "Kenny" started (with errors) in 6938ms - Started 197 of 248 services (2 services failed or missing dependencies, 83 services are lazy, passive or on-demand)
+2017-04-16 21:54:27,534 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment projetoconclusaocurso.war (runtime-name: projetoconclusaocurso.war) in 27ms
+2017-04-16 21:54:27,613 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "projetoconclusaocurso.war" (runtime-name: "projetoconclusaocurso.war")
+2017-04-16 21:54:27,613 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.persistenceunit."projetoconclusaocurso.war#projetoconclusaocurso".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.unit."projetoconclusaocurso.war".POST_MODULE] 
+
+2017-04-16 21:54:32,284 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found projetoconclusaocurso.war in deployment directory. To trigger deployment create a file called projetoconclusaocurso.war.dodeploy
+2017-04-16 21:56:04,800 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.naming.context.java."\n\t\t\tjava:jboss".datasources."dev17\n\t\t" (no longer required)
+      service jboss.persistenceunit."projetoconclusaocurso.war#projetoconclusaocurso".__FIRST_PHASE__ (no longer required)
+
+2017-04-16 21:56:04,846 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 21:56:04,894 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017532: Host default-host stopping
+2017-04-16 21:56:04,909 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2017-04-16 21:56:04,909 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017521: Undertow HTTP listener default suspending
+2017-04-16 21:56:04,925 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2017-04-16 21:56:04,941 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017506: Undertow 1.0.15.Final stopping
+2017-04-16 21:56:05,175 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 349ms
+2017-04-16 21:56:19,565 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 21:56:19,815 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 21:56:19,878 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 21:56:19,894 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 21:56:19,894 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 21:56:21,893 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment projetoconclusaocurso.war
+2017-04-16 21:56:21,908 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found projetoconclusaocurso.war in deployment directory. To trigger deployment create a file called projetoconclusaocurso.war.dodeploy
+2017-04-16 21:56:21,924 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-04-16 21:56:21,972 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.2.2.Final
+2017-04-16 21:56:21,972 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.2.2.Final
+2017-04-16 21:56:22,049 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-04-16 21:56:22,049 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-04-16 21:56:22,049 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-04-16 21:56:22,128 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-04-16 21:56:22,144 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-04-16 21:56:22,144 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-04-16 21:56:22,190 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-16 21:56:22,331 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 21:56:22,441 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 21:56:22,441 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-04-16 21:56:22,456 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2017-04-16 21:56:22,597 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.3.Final
+2017-04-16 21:56:22,628 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-04-16 21:56:22,628 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-16 21:56:22,737 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-04-16 21:56:22,784 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = h2
+2017-04-16 21:56:22,862 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rafael\wildfly-8.1.0.Final/welcome-content
+2017-04-16 21:56:23,237 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2017-04-16 21:56:23,331 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2017-04-16 21:56:23,534 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rafael\wildfly-8.1.0.Final\standalone\deployments
+2017-04-16 21:56:23,550 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "projetoconclusaocurso.war" (runtime-name: "projetoconclusaocurso.war")
+2017-04-16 21:56:23,628 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2017-04-16 21:56:24,393 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 21:56:25,003 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-04-16 21:56:25,175 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for projetoconclusaocurso
+2017-04-16 21:56:25,425 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 21:56:25,457 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: projetoconclusaocurso
+	...]
+2017-04-16 21:56:25,581 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.3.5.Final}
+2017-04-16 21:56:25,597 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+2017-04-16 21:56:25,597 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+2017-04-16 21:56:25,925 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment projetoconclusaocurso.war
+2017-04-16 21:56:26,049 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.0.Final
+2017-04-16 21:56:26,581 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-04-16 21:56:26,583 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-04-16 21:56:26,583 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: projetoconclusaocurso.war
+2017-04-16 21:56:26,612 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.1.2 (Final)
+2017-04-16 21:56:26,690 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = projetoconclusaocurso.war_com.mysql.jdbc.Driver_5_1
+2017-04-16 21:56:26,690 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = projetoconclusaocurso.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-04-16 21:56:26,690 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment projetoconclusaocurso.war
+2017-04-16 21:56:26,956 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 21:56:27,050 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-04-16 21:56:27,628 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-04-16 21:56:27,800 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+2017-04-16 21:56:28,237 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000228: Running hbm2ddl schema update
+2017-04-16 21:56:28,253 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000102: Fetching database metadata
+2017-04-16 21:56:28,253 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000396: Updating schema
+2017-04-16 21:56:28,284 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: login
+2017-04-16 21:56:28,284 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: login
+2017-04-16 21:56:28,284 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: login
+2017-04-16 21:56:28,299 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000232: Schema update complete
+2017-04-16 21:56:29,815 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-1) Inicializando Mojarra 2.2.6-jbossorg-4 20140501-1134 para o contexto '/projetoconclusaocurso'
+2017-04-16 21:56:30,597 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /projetoconclusaocurso
+2017-04-16 21:56:30,690 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "projetoconclusaocurso.war" (runtime-name : "projetoconclusaocurso.war")
+2017-04-16 21:56:30,800 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-16 21:56:30,800 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-04-16 21:56:30,800 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 11687ms - Started 287 of 340 services (91 services are lazy, passive or on-demand)
+2017-04-16 21:56:32,378 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID nome na exibição.
+2017-04-16 21:56:32,389 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID sobrenome na exibição.
+2017-04-16 21:56:32,389 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID email na exibição.
+2017-04-16 21:56:32,394 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID login na exibição.
+2017-04-16 21:56:32,409 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID senha na exibição.
+2017-04-16 21:56:32,409 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID confirmasenha na exibição.
+2017-04-16 21:58:21,689 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = projetoconclusaocurso.war_com.mysql.jdbc.Driver_5_1
+2017-04-16 21:58:21,689 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = projetoconclusaocurso.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-04-16 21:58:21,721 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /projetoconclusaocurso
+2017-04-16 21:58:22,034 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017532: Host default-host stopping
+2017-04-16 21:58:22,143 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 21:58:22,159 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 21:58:22,189 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment projetoconclusaocurso.war
+2017-04-16 21:58:22,424 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+2017-04-16 21:58:22,424 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2017-04-16 21:58:22,455 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 21:58:22,486 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment projetoconclusaocurso.war (runtime-name: projetoconclusaocurso.war) in 800ms
+2017-04-16 21:58:22,486 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017506: Undertow 1.0.15.Final stopping
+2017-04-16 21:58:22,518 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = h2
+2017-04-16 21:58:22,627 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 945ms
+2017-04-16 22:03:50,703 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:03:51,000 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:03:51,234 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:03:51,251 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:03:51,256 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:03:52,219 ERROR [org.jboss.as.server] (Controller Boot Thread) JBAS015956: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: JBAS014676: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:112) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:331) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:256) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_121]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:193)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.parseServerProfile(StandaloneXml.java:1131) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readServerElement_1_4(StandaloneXml.java:458) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:145) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:107) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:104) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:218)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:173)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:628)
+	... 13 more
+
+2017-04-16 22:03:52,230 FATAL [org.jboss.as.server] (Controller Boot Thread) JBAS015957: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-16 22:03:52,344 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 71ms
+2017-04-16 22:06:51,155 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:06:51,437 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:06:51,515 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:06:51,515 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:06:51,515 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:06:52,531 ERROR [org.jboss.as.server] (Controller Boot Thread) JBAS015956: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: JBAS014676: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:112) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:331) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:256) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_121]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:193)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.parseServerProfile(StandaloneXml.java:1131) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readServerElement_1_4(StandaloneXml.java:458) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:145) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:107) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:104) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:218)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:173)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:628)
+	... 13 more
+
+2017-04-16 22:06:52,542 FATAL [org.jboss.as.server] (Controller Boot Thread) JBAS015957: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-16 22:06:52,593 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 23ms
+2017-04-16 22:12:32,075 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:12:32,353 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:12:32,423 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:12:32,427 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:12:32,431 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:12:33,548 ERROR [org.jboss.as.server] (Controller Boot Thread) JBAS015956: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: JBAS014676: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:112) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:331) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:256) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_121]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:193)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.parseServerProfile(StandaloneXml.java:1131) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readServerElement_1_4(StandaloneXml.java:458) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:145) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:107) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:104) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:218)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:173)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:628)
+	... 13 more
+
+2017-04-16 22:12:33,556 FATAL [org.jboss.as.server] (Controller Boot Thread) JBAS015957: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-16 22:12:33,861 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 270ms
+2017-04-16 22:25:27,868 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:25:28,126 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:25:28,197 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:25:28,204 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:25:28,204 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:25:29,314 ERROR [org.jboss.as.server] (Controller Boot Thread) JBAS015956: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: JBAS014676: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:112) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:331) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:256) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_121]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:193)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.parseServerProfile(StandaloneXml.java:1131) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readServerElement_1_4(StandaloneXml.java:458) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:145) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:107) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:104) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:218)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:173)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:628)
+	... 13 more
+
+2017-04-16 22:25:29,320 FATAL [org.jboss.as.server] (Controller Boot Thread) JBAS015957: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-16 22:25:29,568 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 210ms
+2017-04-16 22:34:48,986 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:34:49,295 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:34:49,381 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:34:49,385 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:34:49,389 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:34:50,475 ERROR [org.jboss.as.server] (Controller Boot Thread) JBAS015956: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: JBAS014676: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:112) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:331) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:256) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_121]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:193)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.parseServerProfile(StandaloneXml.java:1131) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readServerElement_1_4(StandaloneXml.java:458) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:145) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:107) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:104) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:218)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:173)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:628)
+	... 13 more
+
+2017-04-16 22:34:50,492 FATAL [org.jboss.as.server] (Controller Boot Thread) JBAS015957: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-16 22:34:50,662 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 141ms
+2017-04-16 22:36:07,326 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:36:07,583 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:36:07,654 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:36:07,661 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:36:07,661 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:36:08,685 ERROR [org.jboss.as.server] (Controller Boot Thread) JBAS015956: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: JBAS014676: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:112) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:331) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:256) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_121]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:193)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.parseServerProfile(StandaloneXml.java:1131) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readServerElement_1_4(StandaloneXml.java:458) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:145) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:107) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.1.0.Final.jar:1.1.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:104) [wildfly-controller-8.1.0.Final.jar:8.1.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:218)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:173)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:628)
+	... 13 more
+
+2017-04-16 22:36:08,690 FATAL [org.jboss.as.server] (Controller Boot Thread) JBAS015957: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-16 22:36:08,963 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 224ms
+2017-04-16 22:37:34,837 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:37:35,130 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:37:35,204 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:37:35,212 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:37:35,212 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:37:37,098 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found projetoconclusaocurso.war in deployment directory. To trigger deployment create a file called projetoconclusaocurso.war.dodeploy
+2017-04-16 22:37:37,137 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-04-16 22:37:37,215 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.2.2.Final
+2017-04-16 22:37:37,227 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.2.2.Final
+2017-04-16 22:37:37,423 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-04-16 22:37:37,458 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-16 22:37:37,473 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-04-16 22:37:37,501 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-04-16 22:37:37,509 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-04-16 22:37:37,509 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-04-16 22:37:37,517 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-04-16 22:37:37,524 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-04-16 22:37:37,563 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 22:37:37,645 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.3.Final
+2017-04-16 22:37:37,758 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 22:37:37,786 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rafael\wildfly-8.1.0.Final/welcome-content
+2017-04-16 22:37:37,813 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2017-04-16 22:37:37,817 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017531: Host default-host starting
+2017-04-16 22:37:37,852 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-16 22:37:37,915 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-04-16 22:37:37,923 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = h2
+2017-04-16 22:37:37,926 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+2017-04-16 22:37:38,266 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-04-16 22:37:38,661 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-04-16 22:37:38,673 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = mysql
+2017-04-16 22:37:38,825 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "projetoconclusaocurso.war" (runtime-name: "projetoconclusaocurso.war")
+2017-04-16 22:37:38,825 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rafael\wildfly-8.1.0.Final\standalone\deployments
+2017-04-16 22:37:38,899 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2017-04-16 22:37:40,227 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-04-16 22:37:40,254 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/tccDS]
+2017-04-16 22:37:40,262 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 22:37:40,520 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for projetoconclusaocurso
+2017-04-16 22:37:40,794 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:37:40,821 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: projetoconclusaocurso
+	...]
+2017-04-16 22:37:40,989 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.3.5.Final}
+2017-04-16 22:37:40,993 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+2017-04-16 22:37:40,993 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+2017-04-16 22:37:41,286 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment projetoconclusaocurso.war
+2017-04-16 22:37:41,547 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.0.Final
+2017-04-16 22:37:42,020 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-04-16 22:37:42,020 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-04-16 22:37:42,024 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: projetoconclusaocurso.war
+2017-04-16 22:37:42,063 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.1.2 (Final)
+2017-04-16 22:37:42,172 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = projetoconclusaocurso.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-04-16 22:37:42,172 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = projetoconclusaocurso.war_com.mysql.jdbc.Driver_5_1
+2017-04-16 22:37:42,188 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment projetoconclusaocurso.war
+2017-04-16 22:37:42,442 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:37:42,965 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-04-16 22:37:43,048 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-04-16 22:37:43,165 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+2017-04-16 22:37:43,583 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000228: Running hbm2ddl schema update
+2017-04-16 22:37:43,585 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000102: Fetching database metadata
+2017-04-16 22:37:43,591 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000396: Updating schema
+2017-04-16 22:37:43,794 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000261: Table found: dev17.login
+2017-04-16 22:37:43,797 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000037: Columns: [datupd, senha, codigo, tipo, pessoa, login, datcad]
+2017-04-16 22:37:43,797 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000108: Foreign keys: []
+2017-04-16 22:37:43,797 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000126: Indexes: [primary]
+2017-04-16 22:37:43,797 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000232: Schema update complete
+2017-04-16 22:37:43,805 WARN  [org.hibernate.internal.SessionFactoryImpl] (ServerService Thread Pool -- 50) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+2017-04-16 22:37:45,164 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-3) Inicializando Mojarra 2.2.6-jbossorg-4 20140501-1134 para o contexto '/projetoconclusaocurso'
+2017-04-16 22:37:45,883 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /projetoconclusaocurso
+2017-04-16 22:37:45,977 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "projetoconclusaocurso.war" (runtime-name : "projetoconclusaocurso.war")
+2017-04-16 22:37:46,606 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-16 22:37:46,738 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-04-16 22:37:46,738 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 12293ms - Started 293 of 346 services (91 services are lazy, passive or on-demand)
+2017-04-16 22:37:50,399 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID nome na exibição.
+2017-04-16 22:37:50,404 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID sobrenome na exibição.
+2017-04-16 22:37:50,407 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID email na exibição.
+2017-04-16 22:37:50,407 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID login na exibição.
+2017-04-16 22:37:50,445 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID senha na exibição.
+2017-04-16 22:37:50,449 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID confirmasenha na exibição.
+2017-04-16 22:38:11,074 ERROR [stderr] (default task-3) java.lang.IllegalStateException: Illegal attempt to specify a SynchronizationType when building an EntityManager from a EntityManagerFactory defined as RESOURCE_LOCAL 
+2017-04-16 22:38:11,075 ERROR [stderr] (default task-3) 	at org.hibernate.jpa.internal.EntityManagerFactoryImpl.errorIfResourceLocalDueToExplicitSynchronizationType(EntityManagerFactoryImpl.java:324)
+2017-04-16 22:38:11,075 ERROR [stderr] (default task-3) 	at org.hibernate.jpa.internal.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:337)
+2017-04-16 22:38:11,075 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.container.TransactionScopedEntityManager.createEntityManager(TransactionScopedEntityManager.java:167)
+2017-04-16 22:38:11,075 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.container.TransactionScopedEntityManager.getOrCreateTransactionScopedEntityManager(TransactionScopedEntityManager.java:146)
+2017-04-16 22:38:11,075 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.container.TransactionScopedEntityManager.getEntityManager(TransactionScopedEntityManager.java:78)
+2017-04-16 22:38:11,076 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.container.AbstractEntityManager.merge(AbstractEntityManager.java:566)
+2017-04-16 22:38:11,076 ERROR [stderr] (default task-3) 	at dao.CadastrarDao.save(CadastrarDao.java:18)
+2017-04-16 22:38:11,076 ERROR [stderr] (default task-3) 	at dao.CadastrarDao$Proxy$_$$_WeldSubclass.save(Unknown Source)
+2017-04-16 22:38:11,076 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017-04-16 22:38:11,077 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017-04-16 22:38:11,077 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017-04-16 22:38:11,078 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Unknown Source)
+2017-04-16 22:38:11,078 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.proxy.SimpleInterceptionChain.interceptorChainCompleted(SimpleInterceptionChain.java:52)
+2017-04-16 22:38:11,078 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.invokeNextInterceptor(AbstractInterceptionChain.java:83)
+2017-04-16 22:38:11,078 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.proxy.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:146)
+2017-04-16 22:38:11,079 ERROR [stderr] (default task-3) 	at com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorBase.invokeInOurTx(TransactionalInterceptorBase.java:89)
+2017-04-16 22:38:11,079 ERROR [stderr] (default task-3) 	at com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorRequired.intercept(TransactionalInterceptorRequired.java:52)
+2017-04-16 22:38:11,079 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017-04-16 22:38:11,080 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017-04-16 22:38:11,080 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017-04-16 22:38:11,082 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Unknown Source)
+2017-04-16 22:38:11,082 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.proxy.SimpleMethodInvocation.invoke(SimpleMethodInvocation.java:30)
+2017-04-16 22:38:11,082 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.invokeNext(AbstractInterceptionChain.java:103)
+2017-04-16 22:38:11,082 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.invokeNextInterceptor(AbstractInterceptionChain.java:81)
+2017-04-16 22:38:11,083 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:48)
+2017-04-16 22:38:11,083 ERROR [stderr] (default task-3) 	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:41)
+2017-04-16 22:38:11,083 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:53)
+2017-04-16 22:38:11,083 ERROR [stderr] (default task-3) 	at dao.CadastrarDao$Proxy$_$$_WeldSubclass.save(Unknown Source)
+2017-04-16 22:38:11,083 ERROR [stderr] (default task-3) 	at beans.CadastrarUsuarioBean.save(CadastrarUsuarioBean.java:23)
+2017-04-16 22:38:11,084 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017-04-16 22:38:11,084 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017-04-16 22:38:11,084 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017-04-16 22:38:11,084 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Unknown Source)
+2017-04-16 22:38:11,084 ERROR [stderr] (default task-3) 	at com.sun.el.parser.AstValue.invoke(AstValue.java:275)
+2017-04-16 22:38:11,085 ERROR [stderr] (default task-3) 	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+2017-04-16 22:38:11,085 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+2017-04-16 22:38:11,085 ERROR [stderr] (default task-3) 	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+2017-04-16 22:38:11,085 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+2017-04-16 22:38:11,085 ERROR [stderr] (default task-3) 	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+2017-04-16 22:38:11,085 ERROR [stderr] (default task-3) 	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+2017-04-16 22:38:11,086 ERROR [stderr] (default task-3) 	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+2017-04-16 22:38:11,086 ERROR [stderr] (default task-3) 	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+2017-04-16 22:38:11,086 ERROR [stderr] (default task-3) 	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+2017-04-16 22:38:11,087 ERROR [stderr] (default task-3) 	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+2017-04-16 22:38:11,087 ERROR [stderr] (default task-3) 	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+2017-04-16 22:38:11,087 ERROR [stderr] (default task-3) 	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+2017-04-16 22:38:11,087 ERROR [stderr] (default task-3) 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+2017-04-16 22:38:11,087 ERROR [stderr] (default task-3) 	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+2017-04-16 22:38:11,087 ERROR [stderr] (default task-3) 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+2017-04-16 22:38:11,088 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+2017-04-16 22:38:11,088 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61)
+2017-04-16 22:38:11,089 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2017-04-16 22:38:11,090 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2017-04-16 22:38:11,090 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25)
+2017-04-16 22:38:11,090 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113)
+2017-04-16 22:38:11,090 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56)
+2017-04-16 22:38:11,090 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25)
+2017-04-16 22:38:11,091 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45)
+2017-04-16 22:38:11,091 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61)
+2017-04-16 22:38:11,091 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2017-04-16 22:38:11,092 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70)
+2017-04-16 22:38:11,092 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2017-04-16 22:38:11,092 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25)
+2017-04-16 22:38:11,092 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2017-04-16 22:38:11,093 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25)
+2017-04-16 22:38:11,093 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25)
+2017-04-16 22:38:11,093 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240)
+2017-04-16 22:38:11,093 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227)
+2017-04-16 22:38:11,094 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73)
+2017-04-16 22:38:11,094 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146)
+2017-04-16 22:38:11,099 ERROR [stderr] (default task-3) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177)
+2017-04-16 22:38:11,099 ERROR [stderr] (default task-3) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727)
+2017-04-16 22:38:11,099 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2017-04-16 22:38:11,099 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2017-04-16 22:38:11,100 ERROR [stderr] (default task-3) 	at java.lang.Thread.run(Unknown Source)
+2017-04-16 22:38:11,118 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID nome na exibição.
+2017-04-16 22:38:11,121 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID sobrenome na exibição.
+2017-04-16 22:38:11,121 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID email na exibição.
+2017-04-16 22:38:11,122 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID login na exibição.
+2017-04-16 22:38:11,125 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID senha na exibição.
+2017-04-16 22:38:11,126 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID confirmasenha na exibição.
+2017-04-16 22:38:41,211 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = projetoconclusaocurso.war_com.mysql.jdbc.Driver_5_1
+2017-04-16 22:38:41,215 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = projetoconclusaocurso.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-04-16 22:38:41,246 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017535: Unregistered web context: /projetoconclusaocurso
+2017-04-16 22:38:41,336 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017532: Host default-host stopping
+2017-04-16 22:38:41,347 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 22:38:41,356 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:38:41,356 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = h2
+2017-04-16 22:38:41,387 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment projetoconclusaocurso.war
+2017-04-16 22:38:41,539 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+2017-04-16 22:38:41,539 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2017-04-16 22:38:41,547 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017506: Undertow 1.0.15.Final stopping
+2017-04-16 22:38:41,554 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:38:41,575 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/tccDS]
+2017-04-16 22:38:41,598 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment projetoconclusaocurso.war (runtime-name: projetoconclusaocurso.war) in 396ms
+2017-04-16 22:38:41,679 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = mysql
+2017-04-16 22:38:41,719 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 475ms
+2017-04-16 22:41:00,624 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-04-16 22:41:00,920 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-04-16 22:41:00,995 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-04-16 22:41:00,999 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rafael\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\Rafael\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rafael\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Rafael\wildfly-8.1.0.Final
+	jboss.host.name = desktop-mlqt2eg
+	jboss.modules.dir = C:\Users\Rafael\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-mlqt2eg
+	jboss.qualified.host.name = desktop-mlqt2eg
+	jboss.server.base.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = desktop-mlqt2eg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rafael\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Rafael/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Rafael/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Rafael\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Rafael\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\Rafael
+	user.language = pt
+	user.name = Rafael
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2017-04-16 22:41:01,003 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Rafael/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Rafael/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Rafael/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-16 22:41:03,030 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found projetoconclusaocurso.war in deployment directory. To trigger deployment create a file called projetoconclusaocurso.war.dodeploy
+2017-04-16 22:41:03,054 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-04-16 22:41:03,085 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.2.2.Final
+2017-04-16 22:41:03,097 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.2.2.Final
+2017-04-16 22:41:03,319 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 22:41:03,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017502: Undertow 1.0.15.Final starting
+2017-04-16 22:41:03,393 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-04-16 22:41:03,425 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-04-16 22:41:03,429 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-16 22:41:03,479 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-16 22:41:03,518 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-04-16 22:41:03,557 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-04-16 22:41:03,589 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-04-16 22:41:03,596 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-04-16 22:41:03,604 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-04-16 22:41:03,659 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-04-16 22:41:03,765 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.3.Final
+2017-04-16 22:41:03,874 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-04-16 22:41:04,053 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = h2
+2017-04-16 22:41:04,063 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = mysql
+2017-04-16 22:41:04,063 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+2017-04-16 22:41:04,280 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rafael\wildfly-8.1.0.Final/welcome-content
+2017-04-16 22:41:04,288 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-04-16 22:41:04,319 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2017-04-16 22:41:04,670 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017531: Host default-host starting
+2017-04-16 22:41:04,783 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "projetoconclusaocurso.war" (runtime-name: "projetoconclusaocurso.war")
+2017-04-16 22:41:04,795 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rafael\wildfly-8.1.0.Final\standalone\deployments
+2017-04-16 22:41:05,057 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2017-04-16 22:41:05,835 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for projetoconclusaocurso
+2017-04-16 22:41:05,995 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-04-16 22:41:06,229 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 22:41:06,272 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/tccDS]
+2017-04-16 22:41:06,495 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:41:06,503 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: projetoconclusaocurso
+	...]
+2017-04-16 22:41:06,655 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.3.5.Final}
+2017-04-16 22:41:06,655 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+2017-04-16 22:41:06,659 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+2017-04-16 22:41:06,960 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment projetoconclusaocurso.war
+2017-04-16 22:41:07,097 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.0.Final
+2017-04-16 22:41:07,725 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-04-16 22:41:07,725 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-04-16 22:41:07,729 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: projetoconclusaocurso.war
+2017-04-16 22:41:07,803 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.1.2 (Final)
+2017-04-16 22:41:07,960 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = projetoconclusaocurso.war_com.mysql.jdbc.Driver_5_1
+2017-04-16 22:41:07,960 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = projetoconclusaocurso.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-04-16 22:41:07,967 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment projetoconclusaocurso.war
+2017-04-16 22:41:08,174 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:41:08,734 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-04-16 22:41:08,815 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-04-16 22:41:08,944 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+2017-04-16 22:41:09,291 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000228: Running hbm2ddl schema update
+2017-04-16 22:41:09,292 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000102: Fetching database metadata
+2017-04-16 22:41:09,299 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000396: Updating schema
+2017-04-16 22:41:09,382 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000261: Table found: dev17.login
+2017-04-16 22:41:09,382 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000037: Columns: [datupd, senha, codigo, tipo, pessoa, login, datcad]
+2017-04-16 22:41:09,382 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000108: Foreign keys: []
+2017-04-16 22:41:09,382 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 50) HHH000126: Indexes: [primary]
+2017-04-16 22:41:09,386 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000232: Schema update complete
+2017-04-16 22:41:10,573 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Inicializando Mojarra 2.2.6-jbossorg-4 20140501-1134 para o contexto '/projetoconclusaocurso'
+2017-04-16 22:41:11,159 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /projetoconclusaocurso
+2017-04-16 22:41:11,233 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "projetoconclusaocurso.war" (runtime-name : "projetoconclusaocurso.war")
+2017-04-16 22:41:11,413 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-16 22:41:11,413 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-04-16 22:41:11,413 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 11079ms - Started 293 of 346 services (91 services are lazy, passive or on-demand)
+2017-04-16 22:41:12,991 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID nome na exibição.
+2017-04-16 22:41:12,999 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID sobrenome na exibição.
+2017-04-16 22:41:12,999 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID email na exibição.
+2017-04-16 22:41:12,999 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID login na exibição.
+2017-04-16 22:41:13,026 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID senha na exibição.
+2017-04-16 22:41:13,030 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-2) Não foi possível encontrar o componente com a ID confirmasenha na exibição.
+2017-04-16 22:41:23,840 INFO  [stdout] (default task-3) Hibernate: 
+2017-04-16 22:41:23,841 INFO  [stdout] (default task-3)     insert 
+2017-04-16 22:41:23,841 INFO  [stdout] (default task-3)     into
+2017-04-16 22:41:23,841 INFO  [stdout] (default task-3)         login
+2017-04-16 22:41:23,841 INFO  [stdout] (default task-3)         (datcad, datupd, login, pessoa, senha, tipo) 
+2017-04-16 22:41:23,841 INFO  [stdout] (default task-3)     values
+2017-04-16 22:41:23,841 INFO  [stdout] (default task-3)         (?, ?, ?, ?, ?, ?)
+2017-04-16 22:41:24,246 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID nome na exibição.
+2017-04-16 22:41:24,250 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID sobrenome na exibição.
+2017-04-16 22:41:24,253 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID email na exibição.
+2017-04-16 22:41:24,254 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID login na exibição.
+2017-04-16 22:41:24,254 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID senha na exibição.
+2017-04-16 22:41:24,256 WARNING [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-3) Não foi possível encontrar o componente com a ID confirmasenha na exibição.
+2017-04-16 22:54:02,357 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = projetoconclusaocurso.war_com.mysql.jdbc.Driver_5_1
+2017-04-16 22:54:02,357 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = projetoconclusaocurso.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-04-16 22:54:02,362 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017535: Unregistered web context: /projetoconclusaocurso
+2017-04-16 22:54:02,400 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:54:02,404 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment projetoconclusaocurso.war
+2017-04-16 22:54:02,451 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:54:02,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment projetoconclusaocurso.war (runtime-name: projetoconclusaocurso.war) in 173ms
+2017-04-16 22:54:02,525 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "projetoconclusaocurso.war" (runtime-name: "projetoconclusaocurso.war")
+2017-04-16 22:54:02,662 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for projetoconclusaocurso
+2017-04-16 22:54:02,709 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:54:02,709 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: projetoconclusaocurso
+	...]
+2017-04-16 22:54:02,787 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment projetoconclusaocurso.war
+2017-04-16 22:54:02,823 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: projetoconclusaocurso.war
+2017-04-16 22:54:02,830 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment projetoconclusaocurso.war
+2017-04-16 22:54:02,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:54:02,869 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-04-16 22:54:02,881 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2017-04-16 22:54:02,920 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000228: Running hbm2ddl schema update
+2017-04-16 22:54:02,920 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000102: Fetching database metadata
+2017-04-16 22:54:02,920 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000396: Updating schema
+2017-04-16 22:54:02,935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: dev17.login
+2017-04-16 22:54:02,935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [datupd, senha, codigo, tipo, pessoa, login, datcad]
+2017-04-16 22:54:02,935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+2017-04-16 22:54:02,935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [primary]
+2017-04-16 22:54:02,935 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000232: Schema update complete
+2017-04-16 22:54:03,533 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Inicializando Mojarra 2.2.6-jbossorg-4 20140501-1134 para o contexto '/projetoconclusaocurso'
+2017-04-16 22:54:03,763 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /projetoconclusaocurso
+2017-04-16 22:54:03,877 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "projetoconclusaocurso.war" with deployment "projetoconclusaocurso.war"
+2017-04-16 22:54:04,310 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017535: Unregistered web context: /projetoconclusaocurso
+2017-04-16 22:54:04,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017532: Host default-host stopping
+2017-04-16 22:54:04,584 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-16 22:54:04,662 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:54:04,674 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = h2
+2017-04-16 22:54:04,674 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment projetoconclusaocurso.war
+2017-04-16 22:54:04,885 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+2017-04-16 22:54:04,885 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2017-04-16 22:54:04,897 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017506: Undertow 1.0.15.Final stopping
+2017-04-16 22:54:04,897 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'projetoconclusaocurso.war#projetoconclusaocurso'
+2017-04-16 22:54:04,905 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/tccDS]
+2017-04-16 22:54:04,916 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment projetoconclusaocurso.war (runtime-name: projetoconclusaocurso.war) in 466ms
+2017-04-16 22:54:05,005 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = mysql
+2017-04-16 22:54:05,224 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 745ms

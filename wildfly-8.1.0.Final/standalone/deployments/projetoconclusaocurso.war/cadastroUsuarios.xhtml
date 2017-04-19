@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<ui:composition template="template.xhtml">
+	<ui:define name="corpo">
+		<div class="titulo">
+			<h:outputLabel value="Cadastro" id="cadastro" />
+			<h:form>
+				<div class="col-sm-12">
+					<h:outputLabel for="nome" class="control-lable" >Nome:</h:outputLabel>
+					<h:inputText class="form-control" name="nome" id="Inome">Nome</h:inputText>
+					<h:outputLabel for="sobrenome" class="control-lable">Sobrenome:</h:outputLabel>
+					<h:inputText class="form-control" name="sobrenome" id="Isobrenome">Sobrenome</h:inputText>
+					<h:outputLabel for="email" class="control-lable">E-mail:</h:outputLabel>
+					<h:inputText class="form-control" name="email" id="Iemail">email</h:inputText>
+					<h:outputLabel for="login" class="control-lable">Login:</h:outputLabel>
+					<h:inputText class="form-control" name="login" id="Ilogin" value= "#{cadastrarUsuarioBean.login.login}">login</h:inputText>
+					<h:outputLabel for="senha" class="control-lable">Senha:</h:outputLabel>
+					<h:inputSecret class="form-control" name="senha" id="Isenha" value="#{cadastrarUsuarioBean.login.senha}"></h:inputSecret>
+
+					<h:outputLabel for="confirmasenha" class="control-lable">Confirmar Senha:</h:outputLabel>
+					<h:inputSecret class="form-control" name="confirmasenha"
+						id="Iconfirmasenha"></h:inputSecret>
+
+					<h:commandButton class="btn btn-success btn-sm" value="Cadastrar"
+						action="#{cadastrarUsuarioBean.save}" id="btn-cadasrar" />
+				</div>
+			</h:form>
+		</div>
+	</ui:define>
+</ui:composition>
+</html>
